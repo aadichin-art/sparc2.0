@@ -7,7 +7,7 @@ Sparc (Basic Prototype)
 Home page: email login
 Next page: group of 4, prompt, message box, skip + report
 """
-
+hide_debug_information()
 @dataclass
 class State:
     email: str
